@@ -1,4 +1,4 @@
-package com.mkyong;
+package com.spring.docker.rnd;
 
 
 import org.slf4j.Logger;
