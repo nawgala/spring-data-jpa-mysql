@@ -50,8 +50,10 @@ Build  the docker image and tag it as 'simple-docker-app'
 Run the docker image , simple-docker-app. user the previously create network
 
 
-`docker run  -ip 8080:8080 --network mysql-net   simple-docker-app`
+`docker run  -p 8080:8080 --network mysql-net   simple-docker-app`
+
 attached mode 
+
 `docker run  -itp 8080:8080 --network mysql-net   simple-docker-app`
 
 
